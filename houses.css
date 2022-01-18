@@ -1,0 +1,131 @@
+.house{
+    margin-top: 10rem;
+}
+.house .box-house .box h1{
+    font-size: 3rem;
+    color: #333;
+}
+.house .box-house .box h2{
+    font-size: 2.2rem;
+    color: var(--red);
+    margin-left: 2.5rem;
+}
+.house .box-house .box h1,h2{
+    display: inline-block;
+}
+.house .box-house{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    box-sizing: 50%;
+}
+.house .box-house .box{
+    
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.2) ;
+    text-align: center;
+  
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;  
+    
+}
+.house .box-house .box .image-container{
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-top: 5rem;
+}
+.house .box-house .box .image-container img{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.8);
+}
+.house .box-house .box .basicfacts{
+    display: flex;
+}
+.house .box-house .box ul{
+    text-align: left;
+    list-style: none;
+    margin-top: 12rem;
+}
+.house .box-house .box li{
+    font-size: 1.5rem;
+}
+.house .box-house .box .rooms{
+    margin-top: 18rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.house .box-house .box .rooms img{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.8);
+    
+}
+.house .box-house .box .rooms img:hover{
+    transform: scale(1.3);
+}
+.description{
+   width: 900px;
+}
+.description h1{
+    font-size: 3rem;
+    color: #333;
+}
+.description p{
+    font-size: 1.5rem;
+}
+.features h1{
+    font-size: 3rem;
+    color: #333;
+}
+
+
+
+
+@media (max-width:768px){
+    .house .box-house .box .image-container img{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+     }
+     
+     .house .box-house .box .rooms img{
+        margin-top:6rem;
+        margin-left: 5rem;
+    }
+}
+
+
+
+
+@media (max-width:450px){
+    .house .box-house .box .image-container img{
+        height: 100%;
+    }
+    .house .box-house .box .rooms img{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .house .box-house .box .basicfact{
+        flex-direction: row;
+    }
+    .house .box-house .box{
+        width: 100%;
+    }
+    .house .box-house .box .image-container img{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+     }
+     .house .box-house .box .rooms{
+         margin-top: 1rem;
+     }
+     .house .box-house .box .rooms img{
+        margin-top:2rem;
+        margin-left: .7rem;
+        width: 100%;
+    }
+}

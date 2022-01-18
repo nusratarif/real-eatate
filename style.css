@@ -371,7 +371,7 @@ header .icons #menu-bars{
     padding-bottom: 2rem;
 }
 .contact .icons-container .icons{
-    flex: 1 1 25rm;
+    flex: 1 1 25rem;
     background: #fff;
     padding: 2rem 8rem;
     border: .1rem solid rgba(0,0,0,.2);
